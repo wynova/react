@@ -1,0 +1,31 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react 学习",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --config scripts/webpack.config.js",
+    "build": "webpack --mode production --config scripts/webpack.config.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wynova/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "wuyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wynova/react/issues"
+  },
+  "homepage": "https://github.com/wynova/react#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {}
+}
